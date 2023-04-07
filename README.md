@@ -39,3 +39,5 @@ This project aims to solve this problem where common product ecosystem can be ea
 > [RabbitMQ](https://github.com/self-tuts/awesome-docker-compose/blob/master/rabbitmq/rabbitmq-docker-compose.yml)
 
 > [Docker Registry](https://github.com/self-tuts/awesome-docker-compose/blob/master/docker-registry/docker-registry-compose.yml)
+
+> [Redis Standalone](https://github.com/self-tuts/awesome-docker-compose/blob/master/redis/redis-docker-compose.yml)
