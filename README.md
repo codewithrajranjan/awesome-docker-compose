@@ -44,4 +44,4 @@ This project aims to solve this problem where common product ecosystem can be ea
 
 - In redis insight use the host ip address
 
-> [Postgres](https://github.com/self-tuts/awesome-docker-compose/blob/master/database/postgres.yml)
+> [Postgres](https://github.com/self-tuts/awesome-docker-compose/blob/master/database/postgres/postgres.yml)
