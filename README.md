@@ -43,3 +43,5 @@ This project aims to solve this problem where common product ecosystem can be ea
 > [Redis Standalone](https://github.com/self-tuts/awesome-docker-compose/blob/master/redis/redis-docker-compose.yml)
 
 - In redis insight use the host ip address
+
+> [Postgres](https://github.com/self-tuts/awesome-docker-compose/blob/master/database/postgres.postgres.yml)
