@@ -26,22 +26,42 @@ This project aims to solve this problem where common product ecosystem can be ea
 
 -----------------------------------------
 
-> [Kafka Zookeeper KafkaManager Ecosystem](https://github.com/self-tuts/awesome-docker-compose/blob/master/ecosystem/kafka-zookeeper-kafkamanager-docker-compose.yml)
+## Database
 
-- Configuration
-  - **[machine-ip-address]** : provide the ip-address of the machine.
-
-> [Elasticsearch Kibana Ecosystem](https://github.com/self-tuts/awesome-docker-compose/blob/master/ecosystem/elasticsearch-kibana-docker-compose.yml)
-
+-----------------------------------------
 
 > [MySQL Service](https://github.com/self-tuts/awesome-docker-compose/blob/master/mysql/mysql-5.7-docker-compose.yml)
-
-> [RabbitMQ](https://github.com/self-tuts/awesome-docker-compose/blob/master/rabbitmq/rabbitmq-docker-compose.yml)
-
-> [Docker Registry](https://github.com/self-tuts/awesome-docker-compose/blob/master/docker-registry/docker-registry-compose.yml)
 
 > [Redis Standalone](https://github.com/self-tuts/awesome-docker-compose/blob/master/redis/redis-docker-compose.yml)
 
 - In redis insight use the host ip address
 
 > [Postgres](https://github.com/self-tuts/awesome-docker-compose/blob/master/database/postgres/postgres.yml)
+
+
+## Message Queue
+
+-----------------------------------------
+
+> [Kafka Zookeeper KafkaManager Ecosystem](https://github.com/self-tuts/awesome-docker-compose/blob/master/ecosystem/kafka-zookeeper-kafkamanager-docker-compose.yml)
+
+- Configuration
+  - **[machine-ip-address]** : provide the ip-address of the machine.
+
+> [RabbitMQ](https://github.com/self-tuts/awesome-docker-compose/blob/master/rabbitmq/rabbitmq-docker-compose.yml)
+
+## Big Data
+
+-----------------------------------------
+
+> [Elasticsearch Kibana Ecosystem](https://github.com/self-tuts/awesome-docker-compose/blob/master/ecosystem/elasticsearch-kibana-docker-compose.yml)
+
+
+
+## DevOps
+
+-----------------------------------------
+
+> [Docker Registry](https://github.com/self-tuts/awesome-docker-compose/blob/master/docker-registry/docker-registry-compose.yml)
+
+
