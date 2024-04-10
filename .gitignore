@@ -1,3 +1,5 @@
 .idea
 *.~
 *~
+mysql-db
+.my.cnf

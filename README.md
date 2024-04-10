@@ -48,6 +48,8 @@ This project aims to solve this problem where common product ecosystem can be ea
 - [Elasticsearch Kibana Ecosystem](https://github.com/self-tuts/awesome-docker-compose/blob/master/ecosystem/elasticsearch-kibana-docker-compose.yml)
 
 
+## Metrics and Monitoring
+- [Prometheus and Grafana Installation](https://github.com/self-tuts/awesome-docker-compose/blob/master/prometheus/prometheus-grafana.yml)
 
 ## DevOps
 
