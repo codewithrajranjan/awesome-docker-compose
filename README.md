@@ -50,6 +50,9 @@ This project aims to solve this problem where common product ecosystem can be ea
 
 ## Metrics and Monitoring
 - [Prometheus and Grafana Installation](https://github.com/self-tuts/awesome-docker-compose/blob/master/prometheus/prometheus-grafana.yml)
+- [MySQL Prometheus Monitoring using MySQL Exporter](https://github.com/self-tuts/awesome-docker-compose/blob/master/prometheus-mysql-exporter/prometheus-mysql.yml)
+   - [Prometheus Scraping Config](https://github.com/self-tuts/awesome-docker-compose/blob/master/prometheus-mysql-exporter/prometheus.yml)
+   - [my.cnf Configuration](https://github.com/self-tuts/awesome-docker-compose/blob/master/prometheus-mysql-exporter/.my.cnf)
 
 ## DevOps
 

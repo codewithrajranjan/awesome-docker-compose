@@ -1,0 +1,49 @@
+version: '3'
+services:
+
+  mysql:
+    image: mysql
+    container_name: mysql
+    restart: always                       # always restart
+    environment:
+      MYSQL_DATABASE: 'test'              # name of database
+      MYSQL_USER: 'sample'                # sample is the name of user
+      MYSQL_PASSWORD: 'password'          # password for sample user
+      MYSQL_ROOT_PASSWORD: 'password'     # password for root user
+    ports:
+      - '3306:3306'                       # host port 3306 is mapper to docker port 3306
+    expose:
+      - '3306'
+    volumes:
+      - ./mysql-db:/var/lib/mysql
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - "./prometheus.yml:/etc/prometheus/prometheus.yml"
+    ports:
+      - 9090:9090
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - ./grafana:/etc/grafana/provisioning/datasources
+      
+  mysql-exporter:
+    image: prom/mysqld-exporter
+    depends_on:
+     - mysql
+    command: 
+     - --config.my-cnf=/cfg/.my.cnf
+     - --mysqld.address=localhost:3306
+    volumes:
+      - "./.my.cnf:/cfg/.my.cnf"
+    ports:
+      - 9104:9104
