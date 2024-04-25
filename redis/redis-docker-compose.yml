@@ -13,7 +13,7 @@ services:
     container_name: redis_insight
     restart: always
     ports:
-      - 8001:8001
+      - 5540:5540
     volumes:
       - redis_insight_volume_data:/db
 volumes:
