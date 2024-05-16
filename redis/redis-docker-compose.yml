@@ -9,7 +9,7 @@ services:
     ports:
       - 6379:6379
   redis_insight:
-    image: redislabs/redisinsight:latest
+    image: redislabs/redisinsight:1.14.0
     container_name: redis_insight
     restart: always
     ports:
